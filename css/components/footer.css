@@ -1,0 +1,33 @@
+.footer {
+  padding: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.footer-layout {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	align-items: stretch;
+}
+
+.footer-left {
+  padding: 20px 0;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 480px) {
+  .footer-left {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .footer-left {
+    padding: 50px 0;
+  }
+}

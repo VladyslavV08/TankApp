@@ -1,0 +1,53 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #77c344;
+  padding: 5px 0;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 34px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #00FFFF;
+}
+
+.burger-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #54a3da;
+  width: 38px;
+  height: 30px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 480px) {
+  .button {
+    padding: 5px 0;
+    font-size: 16px;
+    max-height: 39px;
+    margin: 0;
+  }
+
+  .burger-button {
+    width: 58px;
+    height: 44px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .button {
+    padding: 15px 0;
+    font-size: 18px;
+    max-height: 53px;;
+    margin: 0;
+  }
+}
